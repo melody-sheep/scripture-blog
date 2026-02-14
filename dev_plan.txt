@@ -1,0 +1,383 @@
+
+# 🏛️ Project Title
+
+**Fire on the Mountain — A Digital Scripture Narrative**
+
+---
+
+# 🎯 Project Objective
+
+To design and develop a **modern Scripture blog website** with an **ancient manuscript aesthetic**, starting with the Elijah narrative (1 Kings 18), delivering:
+
+* Immersive reading experience
+* Scripture-themed design
+* Fast performance
+* Expandable structure for future prophets and biblical events
+
+---
+
+# 🧱 Selected Tech Stack (Finalized)
+
+| Layer         | Technology    | Purpose                 |
+| ------------- | ------------- | ----------------------- |
+| Framework     | Next.js       | Core website            |
+| Styling       | Tailwind CSS  | Ancient + modern design |
+| Content       | MDX           | Blog post format        |
+| UI Components | shadcn/ui     | Clean modern components |
+| Animation     | Framer Motion | Smooth transitions      |
+| Font Engine   | Next.js Fonts | Scripture typography    |
+| Hosting       | Vercel        | Deployment              |
+
+---
+
+# 📅 Development Timeline Plan
+
+Estimated total: **7–14 days**
+
+---
+
+# Phase 1 — Environment Setup (Day 1)
+
+## Objective
+
+Prepare development environment
+
+## Tasks
+
+Install project:
+
+```bash
+npx create-next-app@latest scripture-blog
+```
+
+Install dependencies:
+
+```bash
+npm install framer-motion
+npm install @next/mdx @mdx-js/react
+npx shadcn-ui@latest init
+npm install next-themes lucide-react
+```
+
+Run test:
+
+```bash
+npm run dev
+```
+
+Output:
+
+Working Next.js website
+
+---
+
+# Phase 2 — Project Architecture (Day 2)
+
+## Objective
+
+Create scalable folder structure
+
+## Structure
+
+```
+scripture-blog/
+
+src/
+ app/
+  page.tsx
+  elijah/
+
+ components/
+
+ content/
+  elijah/
+
+ public/
+
+ styles/
+```
+
+---
+
+# Phase 3 — Scripture Theme Design (Day 3–4)
+
+## Objective
+
+Implement ancient-modern visual design
+
+---
+
+## Design Specifications
+
+## Color Palette
+
+| Name      | Color   |
+| --------- | ------- |
+| Parchment | #f5ecd8 |
+| Ink       | #1a1a1a |
+| Gold      | #c9a646 |
+| Shadow    | #2e2e2e |
+
+---
+
+## Typography
+
+Install fonts:
+
+```
+Cinzel → headings
+Crimson Pro → body text
+EB Garamond → scripture feel
+```
+
+---
+
+## Features to implement
+
+* parchment background
+* drop cap first letter
+* gold section dividers
+* centered narrow reading column
+
+---
+
+# Phase 4 — Elijah Content Integration (Day 5)
+
+## Objective
+
+Convert your Elijah text into MDX
+
+---
+
+## Create file
+
+```
+/content/elijah/fire-on-mount-carmel.mdx
+```
+
+Paste your content.
+
+Example structure:
+
+```mdx
+# The Fire on the Mountain
+
+<Image src="/elijah1.jpg" />
+
+In the days when the kingdom of Israel walked in shadow...
+```
+
+---
+
+# Phase 5 — Elijah Page Development (Day 6)
+
+## Objective
+
+Create Elijah reading page
+
+---
+
+Create:
+
+```
+src/app/elijah/page.tsx
+```
+
+Features:
+
+* Render MDX content
+* Apply Scripture styling
+* Responsive design
+
+---
+
+# Phase 6 — Component Development (Day 7–8)
+
+Create reusable components
+
+---
+
+## Components List
+
+```
+Navbar
+ScriptureLayout
+ScriptureHeader
+ScriptureText
+ScriptureImage
+Footer
+```
+
+---
+
+# Phase 7 — Animation Integration (Day 9)
+
+Using Framer Motion
+
+Add:
+
+* fade in text
+* smooth page load
+* scroll animation
+
+---
+
+# Phase 8 — Elijah Images Optimization (Day 10)
+
+## Objective
+
+Add images to public folder
+
+```
+public/elijah/
+```
+
+Example:
+
+```
+elijah1.jpg
+elijah2.jpg
+```
+
+Use Next.js Image component.
+
+---
+
+# Phase 9 — Testing Phase (Day 11–12)
+
+Test:
+
+* Mobile responsiveness
+* Desktop layout
+* loading speed
+* typography readability
+
+---
+
+# Phase 10 — Deployment (Day 13–14)
+
+Deploy via:
+
+Vercel
+
+Command:
+
+```bash
+npm run build
+```
+
+Push to GitHub
+
+Connect to Vercel
+
+---
+
+# 🎨 Design Goal Reference
+
+Your Elijah page should visually feel like:
+
+* Digital Bible
+* Museum archive
+* Ancient manuscript
+
+---
+
+# 📖 Elijah Page Final Features
+
+| Feature              | Description       |
+| -------------------- | ----------------- |
+| Parchment background | ancient feel      |
+| Drop cap             | Bible style       |
+| Scripture font       | immersive reading |
+| Smooth animation     | modern feel       |
+| Responsive           | mobile ready      |
+
+---
+
+# 📁 Initial Feature Scope (Version 1)
+
+Only include:
+
+* Home page
+* Elijah page
+* Navigation
+
+---
+
+# Version 2 (Future Expansion)
+
+Add:
+
+* Moses
+* David
+* Isaiah
+* Search
+* Categories
+
+---
+
+# 🧠 Database: Not needed yet
+
+Use MDX first
+
+Add database later if needed
+
+---
+
+# ⚙️ Development Workflow Summary
+
+| Step       | Output              |
+| ---------- | ------------------- |
+| Setup      | Working project     |
+| Design     | Scripture theme     |
+| Content    | Elijah MDX          |
+| Page       | Elijah reading page |
+| Components | Reusable UI         |
+| Animation  | Smooth UX           |
+| Testing    | Stable website      |
+| Deployment | Live site           |
+
+---
+
+# 🏁 Final Deliverable
+
+Website example:
+
+```
+Home Page
+ ↓
+Elijah Page
+ ↓
+Scripture Reading Experience
+```
+
+---
+
+# ⏱️ Estimated Development Time (Realistic)
+
+| Skill Level  | Time       |
+| ------------ | ---------- |
+| Beginner     | 14–21 days |
+| Intermediate | 7–14 days  |
+| Experienced  | 3–7 days   |
+
+---
+
+# ⭐ Recommended Immediate Next Step
+
+Start Phase 1:
+
+Install project:
+
+```bash
+npx create-next-app@latest scripture-blog
+```
+
+---
+
+# If you want, I can now create:
+
+* exact folder structure
+* Elijah page code
+* scripture theme CSS
+

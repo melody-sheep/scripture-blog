@@ -1,0 +1,42 @@
+scripture-blog/
+├── .gitignore
+├── components.json
+├── dev_plan.txt
+├── eslint.config.mjs
+├── next.config.js
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── project._structure.txt
+├── README.md
+├── script.txt
+├── tsconfig.json
+├── app/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── elijah/
+│       └── page.tsx
+├── components/
+│   ├── Footer.tsx
+│   ├── Navbar.tsx
+│   ├── ScriptureHeader.tsx
+│   ├── ScriptureImage.tsx
+│   ├── ScriptureLayout.tsx
+│   └── ScriptureText.tsx
+├── content/
+│   └── elijah/
+│       └── fire-on-mount-carmel.mdx
+├── lib/
+│   └── utils.ts
+├── public/
+│   ├── elijah/
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+└── styles/
+    └── custom.css
