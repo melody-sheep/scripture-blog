@@ -1,6 +1,8 @@
 scripture-blog/
 ├── .gitignore
+├── tailwind.config.ts
 ├── components.json
+├── mdx-components.tsx
 ├── dev_plan.txt
 ├── eslint.config.mjs
 ├── next.config.js
